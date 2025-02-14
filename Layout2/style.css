@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header, nav, article, aside, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+nav {
+    background-color: plum;
+}
+
+aside {
+    background-color: burlywood;
+    width: 20vw;
+}
+
+header {
+    background-color: red;
+    height: 10vh;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 20vw;
+}
+
+article {
+    background-color: greenyellow;
+    height: 80vh;
+    width: 60vw;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 10vh;
+}

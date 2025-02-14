@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.containers {
+    display: flex;
+}
+
+nav, header, main, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+nav {
+    background-color: plum;
+    width: 20vw;
+    height: 100vh;
+}
+
+header {
+    background-color: red;
+    height: 10vh;
+    width: 80vw;
+}
+
+nav {
+    width: 20vw;
+}
+
+main {
+    background-color: greenyellow;
+    height: 80vh;
+    width: 80vw;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 10vh;
+    width: 80vw;
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header, main, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+header {
+    background-color: red;
+    height: 10vh;
+}
+
+main {
+    background-color: greenyellow;
+    height: 80vh;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 10vh;
+}
